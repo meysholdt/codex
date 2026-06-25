@@ -6,10 +6,6 @@
     "platform": "linux/arm64"
   },
 
-  /* Force VS Code to run the container as arm64 in
-     case your host is x86 (or vice-versa). */
-  "runArgs": ["--platform=linux/arm64"],
-
   "features": {
     "ghcr.io/facebook/devcontainers/features/dotslash:latest": {}
   },
